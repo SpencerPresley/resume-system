@@ -1,0 +1,14 @@
+# Your resumes live in me/, a separate private repo. Never commit it here.
+/me/
+
+# Rendered output: render on demand with ./render.sh
+*.pdf
+*.docx
+*.html
+# ...except the print CSS, which render.sh needs
+!.render/style.html
+
+.DS_Store
+.workflow-*.js
+*.pyc
+__pycache__/
