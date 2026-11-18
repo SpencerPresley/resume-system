@@ -57,4 +57,8 @@ if [[ $missing -eq 1 ]]; then
 else
   echo "Render with:"
 fi
-echo "  ./render.sh me/versions/resume.md"
+if [[ -f me/versions/resume.md ]]; then
+  echo "  ./render.sh me/versions/resume.md"
+else
+  echo "  ./render.sh me/versions/<file>.md"
+fi
