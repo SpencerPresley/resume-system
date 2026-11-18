@@ -29,7 +29,7 @@ brew install pandoc poppler
 sudo apt install pandoc poppler-utils chromium
 ```
 
-**First time.** Fork or clone this repo, then:
+**First time.** Click **Use this template** on GitHub (a copy with fresh history and no fork link), clone it, then:
 
 ```bash
 ./setup.sh                      # copies example/me/ to me/ and runs git init in it
